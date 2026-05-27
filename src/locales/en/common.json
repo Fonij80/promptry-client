@@ -1,0 +1,12 @@
+{
+  "brand_name": "Fonij React Template",
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "logout": "Logout"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel"
+  }
+}

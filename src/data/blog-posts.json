@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "slug": "welcome-to-fonij-blog",
+    "title": "Welcome to the Fonij Blog",
+    "excerpt": "An introduction to the Fonij React template blog system and how it works.",
+    "content": "This is your first demo post in the Fonij blog.\n\nYou can edit or delete this post from the Blog CMS page (/admin/blog).\n\nThe blog feature is fully client-side and uses localStorage by default, so you can prototype quickly without a backend.",
+    "coverImage": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg",
+    "tags": ["fonij", "react", "blog"],
+    "status": "published",
+    "createdAt": "2026-02-10T10:00:00.000Z",
+    "updatedAt": "2026-02-10T10:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "slug": "building-cms-without-backend",
+    "title": "Building a Simple Blog CMS Without a Backend",
+    "excerpt": "How to build a localStorage-powered CMS in a Vite + React project.",
+    "content": "In this demo post, we show how you can manage blog posts entirely on the client side.\n\nPosts are stored in localStorage, which is great for templates, prototypes, and small projects.\n\nLater, you can swap the storage layer with a real API (Supabase, Django, etc.) without changing the UI components.",
+    "coverImage": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg",
+    "tags": ["cms", "localStorage", "vite"],
+    "status": "published",
+    "createdAt": "2026-02-11T14:30:00.000Z",
+    "updatedAt": "2026-02-11T14:30:00.000Z"
+  },
+  {
+    "id": "3",
+    "slug": "draft-post-example",
+    "title": "Draft Post Example (Hidden from Public)",
+    "excerpt": "This post is a draft and will not appear on the public blog list.",
+    "content": "Draft posts are useful when you want to prepare content before publishing.\n\nThe CMS screen shows both published posts and drafts.\n\nThe public /blog page only shows posts with status 'published'.",
+    "coverImage": "",
+    "tags": ["draft", "workflow"],
+    "status": "draft",
+    "createdAt": "2026-02-12T09:15:00.000Z",
+    "updatedAt": "2026-02-12T09:15:00.000Z"
+  }
+]
